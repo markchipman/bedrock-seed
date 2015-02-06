@@ -1,0 +1,38 @@
+{
+  "name": "bedrock-seed",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "bower install",
+    "postupdate": "bower update",
+    "bower-install": "bower install",
+    "bower-update": "bower update"
+  },
+  "dependencies": {
+    "bedrock": "~0.3.0",
+    "bedrock-express": "~0.0.1",
+    "bedrock-docs": "~0.0.1",
+    "bedrock-identity": "~0.0.1",
+    "bedrock-idp": "~0.0.1",
+    "bedrock-i18n": "~0.0.1",
+    "bedrock-jobs": "~0.0.1",
+    "bedrock-server": "~0.0.1",
+    "bedrock-mail": "~0.0.1",
+    "bedrock-mongodb": "~0.0.1",
+    "bedrock-passport": "~0.0.1",
+    "bedrock-permission": "~0.0.1",
+    "bedrock-request-limiter": "~0.0.1",
+    "bedrock-requirejs": "~0.0.1",
+    "bedrock-rest": "~0.0.1",
+    "bedrock-session-mongodb": "~0.0.1",
+    "bedrock-validation": "~0.0.1",
+    "bedrock-views": "~0.0.1",
+    "bedrock-protractor": "~0.0.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "directories": {
+  },
+  "main": "index.js"
+}
