@@ -8,6 +8,10 @@
     "bower-install": "bower install",
     "bower-update": "bower update"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-seed"
+  },
   "dependencies": {
     "bedrock": "~0.3.0",
     "bedrock-express": "~0.0.1",
