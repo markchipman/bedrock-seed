@@ -1,20 +1,20 @@
 var config = require('bedrock').config;
 var path = require('path');
 
-// app info
+// core config
 // 0 means use # of cpus
-config.app.workers = 1;
-config.app.masterTitle = 'bedrock1d';
-config.app.workerTitle = 'bedrock1d-worker';
-config.app.restartWorkers = false;
+config.core.workers = 1;
+config.core.masterTitle = 'bedrock1d';
+config.core.workerTitle = 'bedrock1d-worker';
+config.core.restartWorkers = false;
 
 // system group and user IDs (can be groupname/username instead of numbers)
 if(process.platform !== 'win32') {
-  config.app.user.groupId = process.getgid();
-  config.app.user.userId = process.getuid();
+  config.core.user.groupId = process.getgid();
+  config.core.user.userId = process.getuid();
 } else {
-  config.app.user.groupId = 0;
-  config.app.user.userId = 0;
+  config.core.user.groupId = 0;
+  config.core.user.userId = 0;
 }
 
 // config environment
