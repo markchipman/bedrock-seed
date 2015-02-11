@@ -28,17 +28,17 @@ require('./configs/dev');
 
 // add dev data
 bedrock.events.on('bedrock.configure', function() {
-  require('bedrock/configs/roles');
-  require('bedrock/configs/common-data');
-  require('bedrock/configs/dev-data');
+  require('./configs/roles');
+  require('./configs/common-data');
+  require('./configs/dev-data');
 });
 
 // configure for tests, add test data
 bedrock.events.on('bedrock.test.configure', function() {
-  require('bedrock/configs/test');
-  require('bedrock/configs/roles');
-  require('bedrock/configs/common-data');
-  require('bedrock/configs/dev-data');
+  require('./configs/test');
+  require('./configs/roles');
+  require('./configs/common-data');
+  require('./configs/dev-data');
 });
 
 bedrock.start();
