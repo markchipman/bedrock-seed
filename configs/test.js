@@ -1,4 +1,4 @@
-var config = require('config');
+var config = require('bedrock').config;
 
 // logging
 config.loggers.app.filename = '/tmp/bedrock-test-app.log';
