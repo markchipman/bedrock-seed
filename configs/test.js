@@ -1,5 +1,9 @@
 var config = require('bedrock').config;
 
+// core
+config.core.workers = 1;
+config.core.worker.restart = false;
+
 // logging
 config.loggers.app.filename = '/tmp/bedrock-test-app.log';
 config.loggers.access.filename = '/tmp/bedrock-test-access.log';
