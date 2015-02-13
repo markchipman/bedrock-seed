@@ -42,11 +42,7 @@ config.mail.vars = {
   machine: require('os').hostname()
 };
 
-// base URL for tests
-config.views.vars.serviceHost = config.server.host;
-config.views.vars.serviceDomain = config.server.domain;
 config.views.vars.baseUri = config.server.baseUri;
-config.views.vars.clientData.baseUri = config.server.baseUri;
 
 require('./roles');
 require('./common-data');
