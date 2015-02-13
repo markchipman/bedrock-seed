@@ -10,18 +10,18 @@ require('bedrock-identity');
 require('bedrock-idp');
 require('bedrock-i18n');
 require('bedrock-jobs');
-require('bedrock-server');
 require('bedrock-mail');
 require('bedrock-mongodb');
 require('bedrock-passport');
 require('bedrock-permission');
+require('bedrock-protractor');
 require('bedrock-request-limiter');
 require('bedrock-requirejs');
 require('bedrock-rest');
+require('bedrock-server');
 require('bedrock-session-mongodb');
 require('bedrock-validation');
 require('bedrock-views');
-require('bedrock-protractor');
 
 // load local config
 require('./configs/dev');
