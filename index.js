@@ -33,12 +33,9 @@ bedrock.events.on('bedrock.configure', function() {
   require('./configs/dev-data');
 });
 
-// configure for tests, add test data
+// configure for tests
 bedrock.events.on('bedrock.test.configure', function() {
   require('./configs/test');
-  require('./configs/roles');
-  require('./configs/common-data');
-  require('./configs/dev-data');
 });
 
 bedrock.start();
