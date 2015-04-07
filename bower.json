@@ -27,7 +27,6 @@
     "font-awesome": "~4.3.0",
     "forge": "~0.6.21",
     "jquery": "~1.11.1",
-    "jquery-migrate": "~1.2.1",
     "jsonld": "~0.3.22",
     "opencred-verifier": "~0.0.6",
     "ng-multi-transclude": "~0.1.5",
