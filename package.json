@@ -25,7 +25,7 @@
     "bedrock-mongodb": "^1.0.0",
     "bedrock-passport": "^1.0.0",
     "bedrock-permission": "^1.0.0",
-    "bedrock-protractor": "^1.0.0",
+    "bedrock-protractor": "^2.0.0",
     "bedrock-request-limiter": "^1.0.0",
     "bedrock-requirejs": "^1.0.0",
     "bedrock-rest": "^1.0.0",
