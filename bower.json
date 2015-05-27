@@ -26,7 +26,7 @@
     "bootstrap": "~3.3.4",
     "es6-promise": "~2.0.0",
     "font-awesome": "~4.3.0",
-    "forge": "~0.6.21",
+    "forge": "~0.6.30",
     "jquery": "~1.11.1",
     "jsonld": "~0.3.22",
     "ng-multi-transclude": "~0.1.5",
