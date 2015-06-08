@@ -10,7 +10,7 @@ roles['identity.admin'] = {
   sysPermission: [
     permissions.IDENTITY_ADMIN.id,
     permissions.IDENTITY_ACCESS.id,
-    permissions.IDENTITY_CREATE.id,
+    permissions.IDENTITY_INSERT.id,
     permissions.IDENTITY_EDIT.id,
     permissions.IDENTITY_REMOVE.id,
     permissions.PUBLIC_KEY_CREATE.id,
@@ -24,7 +24,7 @@ roles['identity.manager'] = {
   sysPermission: [
     permissions.IDENTITY_ADMIN.id,
     permissions.IDENTITY_ACCESS.id,
-    permissions.IDENTITY_CREATE.id,
+    permissions.IDENTITY_INSERT.id,
     permissions.IDENTITY_EDIT.id,
     permissions.PUBLIC_KEY_CREATE.id,
     permissions.PUBLIC_KEY_REMOVE.id

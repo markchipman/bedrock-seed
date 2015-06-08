@@ -1,7 +1,7 @@
 var config = require('bedrock').config;
 
 // identities
-config.identity.identities.push({
+config.idp.identities.push({
   '@context': config.constants.IDENTITY_CONTEXT_V1_URL,
   type: 'Identity',
   sysSlug: 'bedrock',
@@ -13,7 +13,7 @@ config.identity.identities.push({
     generateResource: 'id'
   }]
 });
-config.identity.identities.push({
+config.idp.identities.push({
   '@context': config.constants.IDENTITY_CONTEXT_V1_URL,
   type: 'Identity',
   sysSlug: 'dev',

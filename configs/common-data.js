@@ -1,17 +1,12 @@
 var config = require('bedrock').config;
 
 // identity config
-config.identity.defaults.identity = {
-  '@context': config.constants.IDENTITY_CONTEXT_V1_URL,
-  type: 'Identity',
-  address: [],
-  preferences: {
-    type: 'IdentityPreferences'
-  },
-  sysPublic: [],
-  sysResourceRole: [{
-    sysRole: 'identity.registered',
-    generateResource: 'id'
-  }],
-  sysStatus: 'active'
+config.idp.defaults.identity.address = [];
+config.idp.defaults.identity.preferences = {
+  type: 'IdentityPreferences'
 };
+config.idp.defaults.identity.sysPublic = [];
+config.idp.defaults.identity.sysResourceRole = [{
+  sysRole: 'identity.registered',
+  generateResource: 'id'
+}];
