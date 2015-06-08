@@ -27,5 +27,5 @@ config.identity.identities.push({
 });
 
 // identity service
-config.identity.owner =
-  config.server.baseUri + config.identity.basePath + '/bedrock';
+config.idp.owner =
+  config.server.baseUri + config.idp.identityBasePath + '/bedrock';
