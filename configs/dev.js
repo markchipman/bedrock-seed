@@ -34,10 +34,10 @@ config.express.staticOptions = {
 };
 
 // mongodb config
-config.mongodb.name = 'bedrock_dev';
+config.mongodb.name = 'bedrock_seed';
 config.mongodb.host = 'localhost';
 config.mongodb.port = 27017;
-config.mongodb.local.collection = 'bedrock_dev';
+config.mongodb.local.collection = 'bedrock_seed';
 
 // mail config
 config.mail.connection = {
