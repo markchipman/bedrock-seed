@@ -22,7 +22,6 @@ roles['identity.manager'] = {
   label: 'Identity Manager',
   comment: 'Role for identity managers.',
   sysPermission: [
-    permissions.IDENTITY_ADMIN.id,
     permissions.IDENTITY_ACCESS.id,
     permissions.IDENTITY_CREATE.id,
     permissions.IDENTITY_EDIT.id,
